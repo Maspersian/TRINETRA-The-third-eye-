@@ -28,9 +28,14 @@ public class UIPanel : MonoBehaviour
     private void StartFade(float targetAlpha, bool interactable)
     {
         if (fadeRoutine != null)
+        {
             StopCoroutine(fadeRoutine);
+        }
 
-        fadeRoutine = StartCoroutine(FadeRoutine(targetAlpha, interactable));
+        if (gameObject.activeInHierarchy)
+        {
+            fadeRoutine = StartCoroutine(FadeRoutine(targetAlpha, interactable));
+        }
     }
 
     private IEnumerator FadeRoutine(float targetAlpha, bool interactable)
