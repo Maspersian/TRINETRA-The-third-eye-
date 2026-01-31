@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class DragPiece : MonoBehaviour
 {
-    public int pieceID;
+    public string pieceID;
 
     private Transform snapTarget;
     private bool dragging;

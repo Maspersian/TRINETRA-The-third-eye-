@@ -3,5 +3,5 @@ using UnityEngine;
 
 public class ShadowID : MonoBehaviour
 {
-    public int id;
+    public string  id;
 }

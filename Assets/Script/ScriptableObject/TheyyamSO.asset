@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0eab344ea3a0e2d4d8a594d268fec46d, type: 3}
+  m_Name: TheyyamSO
+  m_EditorClassIdentifier: 
+  databaseId: 'Theyyam '
+  mainSprite: {fileID: -6859329502482179829, guid: bf07aa33bf0023841b65291c0436afcf, type: 3}
+  pieces:
+  - pieceId: teyyam_01
+    sprite: {fileID: 6986877219618164991, guid: 0df9d77f213c2124fba3415986dcfd87, type: 3}
+  - pieceId: teyyam_02
+    sprite: {fileID: 21300000, guid: a0351309e3593364e88826f386ae9c8c, type: 3}
+  - pieceId: teyyam_03
+    sprite: {fileID: 3890504630758246493, guid: 764db15312dc7ab45a988936a3bdf161, type: 3}
+  - pieceId: teyyam_04
+    sprite: {fileID: -6644788953271500931, guid: decbc4214ad41284787a7c144e551c7d, type: 3}
